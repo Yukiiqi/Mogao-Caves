@@ -10,6 +10,92 @@
     <title>Document</title>
   </head>
   <body>
-    Hello, world!
+    <aside>
+      <div id="zoomable">
+        <img src="./img/Mogao Cave.png" alt="Mogao" />
+        <div id="overlay">
+          <span class="pin" id="pin-1"></span>
+          <span class="pin" id="pin-2"></span>
+          <span class="pin" id="pin-3"></span>
+          <span class="pin" id="pin-4"></span>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div id="buttons">
+        <button id="button-0" onclick="setClass('')">Overview</button>
+        <button id="button-1" onclick="setClass('Buddha')">Buddha</button>
+        <button id="button-2" onclick="setClass('TheLibraryCave')">
+          Library Cave
+        </button>
+        <button id="button-3" onclick="setClass('FlyingApsaras')">
+          Flying apsaras
+        </button>
+        <button id="button-4" onclick="setClass('Future')">Future</button>
+      </div>
+      <article id="0" class="section" data-class="Overview">
+        <p>
+          🌟The Mogao Caves are renowned for their abundant collection of
+          statues and murals that span 1,000 years of Buddhist art. Home to
+          45,000 square meters of frescoes and more than 2,000 painted
+          sculptures, the site holds great historical and religious value.
+        </p>
+      </article>
+      <article id="1" class="section" data-class="Buddha">
+        <p>
+          🌟The giant statue represent Maitreya Buddha in cave 96, at 35.5 m
+          high, which was constructed in 695 under the edicts from Empress Wu
+          Zetian who instructed the constructions of monasteries in 689 and
+          giant statues in 694. It was damaged in an earthquake and had been
+          repaired and restored multiple times, consequently its clothing,
+          colour and gestures had been changed and only the head retains its
+          original Early Tang appearance. It is now housed in a prominent wooden
+          9-storey structure.
+        </p>
+      </article>
+
+      <article id="2" class="section" data-class="TheLibraryCave">
+        <p>
+          🌟Cave 17 discovered by Chinese Taoist Wang Yuanlu came to be known as
+          the Library Cave. A large number of documents dating from 406 to 1002
+          were found in the cave, heaped up in closely packed layers of bundles
+          of scrolls. In addition to the 1,100 bundles of scrolls, there were
+          also over 15,000 paper books and shorter texts. The Library Cave also
+          contained textiles such as banners, numerous damaged figurines of
+          Buddhas, and other Buddhist paraphernalia.
+        </p>
+      </article>
+
+      <article id="3" class="section" data-class="FlyingApsaras">
+        <div>
+          <p>
+            🌟The visual center is the FlyingApsaras with six arms, referring to
+            the six-arm-FlyingApsaras of Tang Dynasty located in Cave 148. The
+            Flying Apsaras, or Feitian in Mandarin, are often considered a
+            symbol of the Mogao Grottoes. She has two hands playing the Pipa,
+            one hand ringing brass bell, another hand holding the first Magazine
+            for Mogao Caves
+          </p>
+        </div>
+      </article>
+      <article id="4" class="section" data-class="Future">
+        <div>
+          <p>
+            ✨When 40 people visit the cave for half an hour, the carbon dioxide
+            in the cave rises fivefold which erodes the fresco.
+            <br />
+            ✨This is my imagination of the future: VR technology may make Mogao
+            Caves digitally immortal: people can use VR at home to visit Mogao
+            Caves, even through the simulation means to touch the stone wall,
+            interact with people inside the fresco, and communicate with
+            generations of Mogao guardians.
+            <br />
+            ✨VR technology will largely alleviate the burden on Mogao Caves by
+            reducing the number of tourists, enabling the of Mogao Caves
+            preserve a little longer and longer...
+          </p>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
